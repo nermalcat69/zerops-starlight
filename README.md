@@ -4,6 +4,19 @@
 
 This is a template for deploying Astro's Starlight docs (SSG) to Zerops, along with a guide on how to deploy to Zerops using both their GUI and CLI.
 
+## Import Project to Zerops
+
+```yml
+project:
+  name: astro
+
+services:
+  - hostname: app
+    type: static
+    enableSubdomainAccess: true
+    buildFromGit: https://github.com/nermalcat69/zerops-starlight
+```
+
 ## 🚀 Project Structure
 
 Inside of your Astro + Starlight + Zerops project, you'll see the following folders and files:
