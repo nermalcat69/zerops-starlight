@@ -1,7 +1,7 @@
 zerops:
-  - setup: starlight
+  - setup: app
     build:
-      base: nodejs@18
+      base: nodejs@20
       buildCommands:
         - pnpm i
         - pnpm run build
